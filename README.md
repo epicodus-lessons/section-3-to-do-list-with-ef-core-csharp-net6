@@ -1,6 +1,6 @@
 ## What Is This?
 
-This is an example repo corresponding to multiple lessons within the LearnHowToProgram.com walkthrough on creating a To Do List application in [Section 3: Database](https://www.learnhowtoprogram.com/c-and-net/database-basics).
+This is an example repo corresponding to multiple lessons within the LearnHowToProgram.com walkthrough on creating a To Do List application in [Section 3: Database Basics](https://www.learnhowtoprogram.com/c-and-net/database-basics).
 
 This project corresponds to the classwork and lessons that describe how to connect an ASP.NET Core MVC project to a MySQL database using [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/). There are multiple lessons in this series. The first lesson in the series is [Introducing Entity Framework Core](https://www.learnhowtoprogram.com/c-and-net/database-basics/introducing-entity-framework).
 
