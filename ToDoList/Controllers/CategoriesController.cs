@@ -51,7 +51,7 @@ namespace ToDoList.Controllers
     [HttpPost]
     public ActionResult Edit(Category category)
     {
-      _db.Entry(category).State = EntityState.Modified;
+      _db.Categories.Update(category);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
