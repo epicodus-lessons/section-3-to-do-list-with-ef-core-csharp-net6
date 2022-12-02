@@ -59,6 +59,6 @@ Follow the instructions in the LearnHowToProgram.com lesson ["Creating a Test Da
 
 **4_one_to_many_relationship**: This branch includes the code we added after working through the following lessons:
 
-- https://www.learnhowtoprogram.com/lessons/the-virtual-keyword-and-lazy-loading
-- https://www.learnhowtoprogram.com/lessons/adding-read-to-a-one-to-many-relationship-with-ef-core
-- https://www.learnhowtoprogram.com/lessons/using-viewbag-and-adding-create-and-update-to-a-one-to-many-relationship
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/establishing-a-one-to-many-relationship-with-navigation-properties
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/using-viewbag
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/create-and-update-with-a-one-to-many-relationship
