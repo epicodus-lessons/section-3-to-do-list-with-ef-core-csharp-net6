@@ -39,23 +39,22 @@ Follow the instructions in the LearnHowToProgram.com lesson ["Creating a Test Da
 
 **1_ef_core_setup**: This is the default branch with the starter code for the To Do List project as an ASP.NET Core MVC web application that is configured to use Entity Framework Core to communicate with a MySQL database. This branch includes the code we added after working through the following lessons:
 
-- https://www.learnhowtoprogram.com/lessons/introducing-entity-framework-core
-- https://www.learnhowtoprogram.com/lessons/configuration-for-entity-framework-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/introducing-entity-framework-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/configuration-for-entity-framework-core
 
 
 **2_create_read_and_details_with_html_helpers**: This branch includes the code we added after working through the following lessons:
 
-- https://www.learnhowtoprogram.com/lessons/read-with-ef-core
-
-- https://www.learnhowtoprogram.com/lessons/create-with-ef-core
-- https://www.learnhowtoprogram.com/lessons/html-helper-methods-lambda-expressions-and-string-interpolation
-- https://www.learnhowtoprogram.com/lessons/showing-item-details
-- https://www.learnhowtoprogram.com/lessons/further-exploration-with-testing
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/read-with-ef-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/create-with-ef-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/html-helper-methods-lambda-expressions-and-string-interpolation
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/showing-item-details-with-ef-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/further-exploration-with-testing
 
 **3_update_and_delete**: This branch includes the code we added after working through the following lessons:
 
-- https://www.learnhowtoprogram.com/lessons/update-with-ef-core
-- https://www.learnhowtoprogram.com/lessons/delete-with-ef-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/update-with-ef-core
+- https://www.learnhowtoprogram.com/c-and-net/database-basics/delete-with-ef-core
 
 **4_one_to_many_relationship**: This branch includes the code we added after working through the following lessons:
 
