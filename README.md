@@ -14,7 +14,7 @@ Install the tools that are introduced in [this series of lessons on LearnHowToPr
 
 ### Set up the Databases
 
-Follow the instructions in the LearnHowToProgram.com lesson ["Creating a Test Database: Exporting and Importing Databases with MySQL Workbench"](https://www.learnhowtoprogram.com/lessons/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench) to use the `todolist_with_ef_core_dump.sql` file located at the top level of this repo to create a new database in MySQL Workbench with the name `to_do_list_with_ef_core`.
+Follow the instructions in the LearnHowToProgram.com lesson ["Creating a Test Database: Exporting and Importing Databases with MySQL Workbench"](https://www.learnhowtoprogram.com/c-and-net/database-basics/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench) to use the `todolist_with_ef_core_dump.sql` file located at the top level of this repo to create a new database in MySQL Workbench with the name `to_do_list_with_ef_core`.
 
 ### Set Up and Run Project
 
