@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ToDoList.Models;
+using BestRestaurants.Models;
 
-namespace ToDoList
+namespace BestRestaurants
 {
   class Program
   {
@@ -14,7 +14,7 @@ namespace ToDoList
 
       builder.Services.AddControllersWithViews();
 
-      builder.Services.AddDbContext<ToDoListContext>(
+      builder.Services.AddDbContext<BestRestaurantsContext>(
                         dbContextOptions => dbContextOptions
                           .UseMySql(
                             builder.Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]

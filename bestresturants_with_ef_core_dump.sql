@@ -16,33 +16,33 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `categories`
+-- Table structure for table `cuisines`
 --
 
-DROP TABLE IF EXISTS `categories`;
+DROP TABLE IF EXISTS `cuisines`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `categories` (
-  `CategoryId` int NOT NULL AUTO_INCREMENT,
+CREATE TABLE `cuisines` (
+  `cuisineId` int NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`CategoryId`)
+  PRIMARY KEY (`cuisineId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `items`
+-- Table structure for table `restaurants`
 --
 
-DROP TABLE IF EXISTS `items`;
+DROP TABLE IF EXISTS `restaurants`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `items` (
-  `ItemId` int NOT NULL AUTO_INCREMENT,
+CREATE TABLE `restaurants` (
+  `restaurantId` int NOT NULL AUTO_INCREMENT,
   `Description` varchar(45) DEFAULT NULL,
-  `CategoryId` int DEFAULT NULL,
-  PRIMARY KEY (`ItemId`),
-  KEY `categoryid_idx` (`CategoryId`),
-  CONSTRAINT `categoryid` FOREIGN KEY (`CategoryId`) REFERENCES `categories` (`CategoryId`) ON DELETE CASCADE ON UPDATE CASCADE
+  `cuisineId` int DEFAULT NULL,
+  PRIMARY KEY (`restaurantId`),
+  KEY `cuisineid_idx` (`cuisineId`),
+  CONSTRAINT `cuisineid` FOREIGN KEY (`cuisineId`) REFERENCES `cuisines` (`cuisineId`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
